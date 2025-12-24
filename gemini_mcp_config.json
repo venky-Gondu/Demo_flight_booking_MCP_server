@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "flights-booking-server": {
+            "command": "d:\\LLmLangchain\\FlightsBookingAgent\\flights_booking_server\\.venv\\Scripts\\python.exe",
+            "args": [
+                "d:\\LLmLangchain\\FlightsBookingAgent\\flights_booking_server\\server_code\\run_mcp_server.py"
+            ]
+        }
+    }
+}

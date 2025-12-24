@@ -1,0 +1,5 @@
+pydentic
+typing
+uv
+fastapi
+mcp

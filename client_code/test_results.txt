@@ -1,0 +1,56 @@
+============================================================
+Testing Flight Booking MCP Server
+============================================================
+
+✓ Server connected successfully!
+
+📋 Available Resources:
+------------------------------------------------------------
+  • file://flights/
+  • file://airports/
+
+🔧 Available Tools:
+------------------------------------------------------------
+  • search_flights
+    Description: Search for flights by origin, destination, and date.
+  • book_flight
+    Description: Book a flight for a passenger.
+  • cancel_booking
+    Description: Cancel an existing booking.
+
+💬 Available Prompts:
+------------------------------------------------------------
+  • flight_search_prompt
+    Description: Prompt for searching flights using the tool and summarizing results.
+  • flight_booking_prompt
+    Description: Prompt for booking a flight using the tool and confirming the booking.
+  • booking_cancel_prompt
+    Description: Prompt for cancelling a booking using the tool and confirming cancellation.
+  • flight_details_prompt
+    Description: Prompt for showing flight details using the tool.
+  • handle_disruption
+
+============================================================
+TEST 1: Reading Available Airports
+============================================================
+✓ Success!
+Available Airports: [
+  "NYC",
+  "LAX",
+  "SFO",
+  "ORD",
+  "DFW",
+  "ATL",
+  "DEN"
+]
+
+============================================================
+TEST 2: Searching Flights (NYC to LAX)
+============================================================
+✓ Success!
+Found 9 flights:
+✗ Error: string indices must be integers
+
+============================================================
+All tests completed successfully!
+============================================================

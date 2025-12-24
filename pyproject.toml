@@ -1,0 +1,13 @@
+[project]
+name = "flights-booking-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.116.1",
+    "mcp[cli]>=1.12.2",
+    "pydentic>=0.0.1.dev3",
+    "typing>=3.10.0.0",
+    "uv>=0.8.4",
+]
